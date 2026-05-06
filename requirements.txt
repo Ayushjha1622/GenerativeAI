@@ -1,14 +1,43 @@
+# Core LangChain
 langchain
 langchain-core
 langchain-community
+langchain-huggingface
 langgraph
+
+# LLM Providers
 langchain-openai
+langchain-mistralai
 langchain-google-genai
 langchain-groq
-langchain-mistralai
-python-dotenv
+openai
+mistralai
+
+# Vector Database
+chromadb
 faiss-cpu
+
+# Embedding Models
+sentence-transformers
+
+# Document Loaders & processing
+pypdf
+unstructured
+beautifulsoup4
+lxml
 tiktoken
+
+# Environment & Data
+python-dotenv
+pandas
+numpy
+
+# API & App Layer
 fastapi
 uvicorn
+streamlit
+
+# Utilities
+tqdm
+arxiv
 requests

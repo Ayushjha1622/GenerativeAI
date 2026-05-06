@@ -1,4 +1,4 @@
-# Environments
+# Environments & Secrets
 .env
 .env.*
 !.env.example
@@ -32,3 +32,13 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Vector Store / Database
+chroma-db/
+*.sqlite3
+
+# Temp files from uploads
+temp_*.pdf
+
+# Model cache
+.cache/
